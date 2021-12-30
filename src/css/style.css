@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body, html {
+    font-family: 'Quicksand', sans-serif;
+    color: #464646;
+}
+
+.theBackground {
+    background: linear-gradient(109.66deg, rgba(122, 228, 254, 0.5) 5.53%, rgba(178, 174, 253, 0.5) 31.73%, rgba(250, 144, 250, 0.5) 55.12%, rgba(222, 195, 111, 0.5) 95.36%);
+}
+
+.theWindow {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(111.74deg, rgba(239, 245, 255, 0.75) 10.26%, rgba(215, 229, 255, 0.75) 53.1%, rgba(215, 229, 255, 0.75) 90.91%);
+    box-shadow: 0px 8px 15px rgba(103, 111, 163, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.topBar {
+    margin: 10px 15px;
+    display: flex;
+}
+
+.topBar .title {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.topBar .buttons {
+    margin-left: auto;
+}
+
+.buttons img {
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    padding: 30px 50px;
+}
+
+.main .title {
+    margin-top: 30px;
+}
+
+.main img {
+    margin-left: auto;
+    box-shadow: 0px 8px 15px rgba(103, 111, 163, 0.5);
+    border-radius: 8px;
+}
+
+.title small {
+    margin-bottom: 0px;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.title p {
+    margin: 10px 0;
+}
+
+.socials {
+    margin: 15px 0;
+}
+
+.socials a, .skills i {
+    color: #464646;
+    margin-right: 5px;
+    font-size: 23px;
+}
+
+.portfolio .title {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.main .btn {
+    text-decoration: none;
+    background: #D7E5FF;
+    box-shadow: 0px 2px 5px rgba(103, 111, 163, 0.25);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 13px;
+    margin-right: 8px;
+    color: #464646;
+}
+
+.skills .title {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+
+@media(min-width: 900px) {
+    .theWindow {
+        width: 860px;
+        height: 560px;
+    }
+}
+
+@media(max-width: 900px) {
+    .theWindow {
+        width: 90%;
+        height: 90%;
+    }
+}
