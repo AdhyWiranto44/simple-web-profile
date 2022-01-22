@@ -14,7 +14,9 @@
     <title>Hello, world!</title>
   </head>
   <body class="theBackground">
-    
+      <div class="appShortcut">
+        <img src="./src/img/logo.png" alt="logo" width="48" height="48" onclick="return openApp();">
+      </div>
     <div class="theWindow">
         <div class="topBar">
             <img class="logo" src="./src/img/logo.png" alt="logo" width="20" height="20">
@@ -22,7 +24,7 @@
             <div class="buttons">
                 <img class="minimize" src="./src/img/minimize.png" alt="minimize">
                 <img class="maximize" src="./src/img/maximize.png" alt="maximize">
-                <img class="exit" src="./src/img/exit.png" alt="exit">
+                <img class="exit" src="./src/img/exit.png" alt="exit" onclick="return closeApp();">
             </div>
         </div>
         <div class="main">
