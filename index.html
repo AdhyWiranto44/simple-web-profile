@@ -15,16 +15,16 @@
   </head>
   <body class="theBackground">
       <div class="appShortcut">
-        <img src="./src/img/logo.png" alt="logo" width="48" height="48" onclick="return openApp();">
+        <img src="./src/img/logo.png" alt="logo" width="48" height="48" onclick="return openApp();" title="Open Window">
       </div>
     <div class="theWindow">
         <div class="topBar">
             <img class="logo" src="./src/img/logo.png" alt="logo" width="20" height="20">
             <p class="title">My Web Profile</p>
             <div class="buttons">
-                <img class="minimize" src="./src/img/minimize.png" alt="minimize">
+                <img class="minimize" src="./src/img/minimize.png" alt="minimize" onclick="return closeApp();">
                 <img class="maximize" src="./src/img/maximize.png" alt="maximize">
-                <img class="exit" src="./src/img/exit.png" alt="exit" onclick="return closeApp();">
+                <img class="exit" src="./src/img/exit.png" alt="exit" onclick="return closeApp();" title="Close Button">
             </div>
         </div>
         <div class="main">

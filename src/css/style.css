@@ -15,10 +15,12 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(111.74deg, rgba(239, 245, 255, 0.75) 10.26%, rgba(215, 229, 255, 0.75) 53.1%, rgba(215, 229, 255, 0.75) 90.91%);
+    /* background: linear-gradient(111.74deg, rgba(239, 245, 255, 0.75) 10.26%, rgba(215, 229, 255, 0.75) 53.1%, rgba(215, 229, 255, 0.75) 90.91%); */
+    background-color: white;
     box-shadow: 0px 8px 15px rgba(103, 111, 163, 0.5);
     border-radius: 8px;
     overflow: hidden;
+    cursor: move;
 }
 
 .topBar {
@@ -100,7 +102,7 @@ body, html {
     padding-bottom: 12px;
 }
 
-.exit {
+.minimize, .maximize, .exit {
     cursor: pointer;
 }
 
